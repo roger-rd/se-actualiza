@@ -88,6 +88,10 @@ h1 {
   text-align: justify;
 }
 
+.experiencia p{
+  margin: 5px;
+}
+
 
 button {
     grid-column: span 2;
