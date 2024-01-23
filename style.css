@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    display: grid;
+}
+
+header {
+    text-align: center;
+    background-color: #34cae4;
+    padding: 10px;
+    grid-column: span 2;
+}
+
+
+nav{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(165, 162, 162);
+    margin: 0;
+    height: 80px
+}
+
+
+
+  .lista-redes {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Cambia la dirección de la disposición a columna */
+    margin-bottom: 10PX;
+}
+
+  .icono {
+    margin-right: 5px; /* Ajusta el espacio entre el ícono y el texto */
+    color: #34cae4;
+    font-size: 28px;
+
+  }
+
+  .nav-link {
+    text-decoration: none; /* Quita la decoración de texto */
+    color: rgb(24, 185, 203); /* Añade un color opcional a los enlaces */
+  }
+
+  .nav-link:hover {
+    text-decoration: underline; /* Puedes agregar subrayado al pasar el ratón si lo deseas */
+  }
+
+
+
+h1 {
+    margin: 0;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.curriculum-section {
+  margin: 20px;
+}
+
+.column{
+  margin:20px
+}
+
+.column:first-child{
+  border-right: 5px solid rgb(165, 162, 162);;
+}
+
+.descripcion .educacion,
+.stack .experiencia {
+    margin: 40px;
+    gap: 20px;
+}
+
+.descripcion p{
+  text-align: justify;
+}
+
+
+button {
+    grid-column: span 2;
+    display: block;
+    margin: 20px;
+    padding: 8px 15px; /* Ajusta el tamaño del padding */
+    font-size: 14px; /* Ajusta el tamaño de la fuente */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+
+footer{
+    background-color:#34cae4 ;
+    grid-column: span 2;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+/* Estilo específico para impresión */
+@media print {
+    nav {
+        margin: 0;
+    }
+
+    button {
+        display: none; /* Oculta el botón de impresión en la versión impresa */
+    }
+
+}
