@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+header { text-align: center; margin-bottom: 20px; }
+h1 { margin-bottom: 5px; }
+h2 { color: #2d3436; margin-top: 20px; }
+ul { padding-left: 1.2rem; }
+.section { margin-bottom: 30px; }
+.contact i { margin-right: 8px; color: #294751; }
+.contact span { display: block; margin-bottom: 5px; }
+@media print {
+  nav {
+      margin: 0;
+  }
+
+  button {
+      display: none;
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Mi Currículum</title>
+</head>
+<body>
+    <header>
+        <h1>ROGER D. RODRIGUEZ P.</h1>
+        <p><em>DESARROLLADOR FRONT</em></p>
+    </header>   
+    <nav>
+        <div class="">
+          <ul class="nav lista-redes">
+            <li class="nav-item">
+              <i class="fa-solid fa-mobile-screen-button icono"></i>
+              <a class="nav-link text-black" aria-current="page" href="#">+56 9 77979094</a>
+            </li>
+            <li class="nav-item">
+              <i class="fa-solid fa-envelope icono"></i>
+              <a class="nav-link text-black">rogerdavid.rd@gmail.com</a>
+            </li>
+            <li class="nav-item">
+                <i class="fa-brands fa-linkedin icono"></i>
+              <a class="nav-link text-black" href="#">roger-rodriguez-rdrp</a>
+            </li>
+            <li class="nav-item">
+                <i class="fa-brands fa-github icono"></i>
+              <a class="nav-link text-black" href="#">github.com/roger-rd</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+  <section class="section curriculum-section">
+    <div class="column">
+      <article class="educacion">
+        <h2>Educación</h2>
+        <ul>
+          <li><p>Ingeniería de Ejecución en Informática, mención Desarrollo de Sistemas, AIEP (2024 - Presente)</p></li>
+          <li><p>Desarrollo Full Stack JavaScript, Desafío Latam (2023)</p></li>
+        </ul>
+      </article>
+
+      <article class="stack">
+        <h2>Stack Tecnológico</h2>
+        <ul>
+          <li><p><strong>Lenguajes:</strong> JavaScript, TypeScript, Java, C#,SQL, HTML5, CSS3</p></li>
+          <li><p><strong>Frameworks / Librerías:</strong> React.js, Angular, Node.js, Express.js, Bootstrap, Tailwind CSS</p></li>
+          <li><p><strong>Bases de Datos:</strong> PostgreSQL (pgAdmin), MySQL</p></li>
+          <li><p><strong>Backend:</strong> Node.js con Express, arquitectura MVC, generación de PDFs, Nodemailer</p></li>
+          <li><p><strong>Frontend:</strong> React con Hooks, Context API, Formularios con Zod, Portals, useRef, Router DOM</p></li>
+          <li><p><strong>Control de versiones:</strong> Git, GitHub</p></li>
+          <li><p><strong>Despliegue:</strong> Netlify</p></li>
+        </ul>
+      </article>
+    </div>
+    
+    <div class="column">
+        
+        <article class="descripcion">
+          <h2>Acerca de mí</h2>
+          <p>Soy un desarrollador con formación en Ingeniería de Sistemas y experiencia en proyectos de frontend y backend. He trabajado en aplicaciones de usuario, integraciones backend y sistemas de gestión. Mi motivación es continuar aprendiendo y aplicando tecnologías emergentes en proyectos desafiantes.</p>
+        </article>
+      <article class="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <ul>
+          <li>
+            <p><strong>Desarrollador FrontEnd, Pullman Bus (2024 - Presente)</strong></p>
+            <p>Implementación de funcionalidades en Angular, Java, Next.js, Tailwind CSS, Bootstrap y TypeScript.</p>
+          </li>
+          <li>
+            <p><strong>Desarrollador Full Stack Freelance (2025)</strong></p>
+            <p>Diseño y desarrollo de sistemas web completos con React y Node.js.
+            </p>
+          </li>
+          <li>
+            <p><strong>Controlador de carga, Pullman Cargo (2019 - 2024)</strong></p>
+            <ul>
+              <li><p>Supervisión de logística de carga a nivel nacional y resolución de problemas operativos.</p></li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+
+  <footer>
+    <button style="position: fixed; bottom: 20px; right: 20px;" onclick="imprimirPDF()">Imprimir a PDF</button>
+  </footer>
+
+  <script src="./main.js"></script>
+  <script src="https://kit.fontawesome.com/dd8e84b4a3.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
